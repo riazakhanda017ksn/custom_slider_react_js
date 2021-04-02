@@ -5,7 +5,7 @@
 
 Links [here the It shop](https://your-it-shop.web.app/)
 
-## there are six component that i used
+## there are eleven (11) component that i used
 1. Header
 1. Home
 1. product
