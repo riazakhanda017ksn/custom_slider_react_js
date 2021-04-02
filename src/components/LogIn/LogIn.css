@@ -1,0 +1,46 @@
+
+.google-sing-in.d-flex {
+    background: #dddddd70;
+    border-radius: 6px;
+    position: relative;
+    bottom: 33px;
+    width: 98%;
+    left: 6px;
+    cursor: pointer;
+}
+.sing-in-text a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 9px;
+    display: inline-block;
+}
+h5.style span {
+    text-align: center;
+    padding: 27px 68px;
+    color: #0074ff94;
+    border-radius: 10px;
+    transform-origin: top center;
+}
+h5.styleTwo span {
+    text-align: center;
+    padding: 27px 68px;
+    color: #aa000094;
+    border-radius: 10px;
+    transform-origin: top center;
+}
+.newUsers.mt-4.text-center button {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 6px 39px;
+}
+label.edit {
+    color: #00c4ff;
+    font-weight: 400;
+    margin-right: 75px;
+}
+
+
+
+

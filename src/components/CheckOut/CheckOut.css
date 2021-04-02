@@ -1,0 +1,16 @@
+.checkOut-section{text-align: end; margin-top: 15px;}
+
+
+.table-item.mt-5 {
+    
+    padding: 10px;
+    box-shadow: -1px 1px 5px #8080807a;
+    border-radius: 6px;
+}
+/* @media only screen and (max-device-width:485px) {
+    .checkOut-section {
+        position: relative;
+        text-align: center;
+    }
+
+} */

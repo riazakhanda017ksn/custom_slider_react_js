@@ -1,0 +1,71 @@
+ul.navbar-nav.menu {
+    margin-left: auto;
+    font-size: 14px;
+    margin-right: 7px;
+}
+ul.navbar-nav.menu li a {
+    text-decoration: none;
+    margin-right: 52px;
+    color: #111;
+    font-weight: 600;
+    line-height: 35px;
+    display: inline-block;
+    transition: .4s;
+
+}
+ul.navbar-nav.menu li button {
+    color: #FFF;
+    padding: 2px 28px;
+    position: relative;
+    top: 3px;
+    right: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .3s;
+}
+ul.navbar-nav.menu li button:hover {
+    background: #4b5384;
+    letter-spacing: 1px;
+    border-color: #5f69a7;
+    font-style: italic
+}
+ul.navbar-nav.menu li a:hover {
+    color: #6274df;
+    letter-spacing: 1px;
+    font-style: italic;
+    border-bottom: 1px solid #5f69a7;
+}
+span.ml-4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 6px;
+    position: relative;
+    bottom: 3px;
+    color: #3a292ab0;
+ 
+}
+a.navbar-brand.mobile {
+    color: #1b70c6bd;
+    background: #dddddd59;
+    padding: 4px 12px;
+    border-radius: 10px;
+    transition: .4s;
+}
+a.navbar-brand.mobile:hover{color:rgb(30, 100, 180);border-bottom: 1px solid #6274df;}
+.search-item.text-center {
+    display: flex;
+    margin-left: 78px;
+}
+.search-item.text-center input {
+    width: 90%;
+    border-right: none;
+}
+.search-item.text-center button {
+    position: relative;
+    right: 98px;
+    padding: 0 25px;
+}
+.google-sing-in.d-flex {
+    background: #dddddd70;
+    border-radius: 6px;
+}

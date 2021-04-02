@@ -1,0 +1,32 @@
+
+.input-inline input {
+    width: 45%;
+    border: none;
+    border-bottom: 1px solid #DDD;
+    padding: 5px;
+    margin: 10px 0;
+    outline: none;
+    
+}
+.input-inline h5 {
+    width: 30%;
+}
+span.mr-4.sticker {
+    margin: 0 4px;
+}
+.product-manage.text-center.text-light.mt-4 a {
+    text-decoration: none;
+    display: inline-block;
+    color: #FFF;
+    position: relative;
+    right: 19px;
+    cursor: pointer;
+}
+.product-manage.text-center.text-light.mt-4 a h5 span {
+    display: inline-block;
+    margin: 0 7px;
+}
+.product-manage.text-center.text-light a {
+    text-decoration: none;
+    color: #fff;
+}

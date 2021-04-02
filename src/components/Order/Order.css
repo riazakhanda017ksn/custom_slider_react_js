@@ -1,0 +1,8 @@
+.hereTheUserDetails ul {
+    list-style: none;
+}
+.hereTheUserDetails ul li {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 96px;
+}
