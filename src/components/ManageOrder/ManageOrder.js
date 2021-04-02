@@ -10,7 +10,7 @@ const ManageOrder = () => {
 
     const [manages,setManages]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:5055/events")
+        fetch("https://sleepy-woodland-19039.herokuapp.com/events")
         .then(res=>res.json())
         .then(data=>setManages(data))
     })

@@ -18,7 +18,7 @@ const AddProduct = () => {
             price:data.price,
             imageURL:imageURL
         }
-        const url=`http://localhost:5055/addProduct`;
+        const url=`https://sleepy-woodland-19039.herokuapp.com/addProduct`;
 
         console.log(eventData);
         fetch(url,{
@@ -65,10 +65,10 @@ const AddProduct = () => {
                         </div>
                         
                         <div className="product-manage text-center text-light mt-4">
-                            <Link to="/"><h5> <span className='mr-4  sticker'><FontAwesomeIcon icon={faPlus} /> </span> Add Product </h5></Link>
+                            <Link to="/admin"><h5> <span className='mr-4  sticker'><FontAwesomeIcon icon={faPlus} /> </span> Add Product </h5></Link>
                         </div>
                         <div className="product-manage text-center text-light mt-4">
-                            <Link to="/"><h5> <span className='mr-4  sticker'><FontAwesomeIcon icon={faEdit} /> </span> Edit Product </h5></Link>
+                            <Link to="/manageOrder"><h5> <span className='mr-4  sticker'><FontAwesomeIcon icon={faEdit} /> </span> Edit Product </h5></Link>
                         </div>
 
                     </div>

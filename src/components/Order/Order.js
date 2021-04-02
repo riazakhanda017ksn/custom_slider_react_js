@@ -6,7 +6,7 @@ const Order = () => {
     const [UserDetails,setUserDetails]=useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:5055/UserDetailsShow')
+        fetch('https://sleepy-woodland-19039.herokuapp.com/UserDetailsShow')
         .then(res=>res.json())
         .then(data=>setUserDetails(data))
     },[0])

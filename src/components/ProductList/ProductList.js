@@ -6,7 +6,8 @@ const ProductList = (props) => {
     const { name, price, quantity, _id } = props.productItem
     const hidden=document.getElementById('delete')
     const deleteEvent=id=>{
-        fetch(`http://localhost:5055/deleteProduct/${id}`,{
+        
+        fetch(`https://sleepy-woodland-19039.herokuapp.com/deleteProduct/${id}`,{
             method:"DELETE"
         })
         .then(res=>res.json())

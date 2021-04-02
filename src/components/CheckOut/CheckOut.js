@@ -10,7 +10,7 @@ const CheckOut = () => {
     const { _id } = useParams();
     const [data, setData] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5055/events')
+        fetch('https://sleepy-woodland-19039.herokuapp.com/events')
             .then(res => res.json())
             .then(data => setData(data))
     }, [0])
@@ -27,7 +27,7 @@ const CheckOut = () => {
   
     const orderTime = new Date()
   
-     
+    
     const handleCheckIn =()=>{
         const orderDetails ={
             name,
@@ -37,8 +37,9 @@ const CheckOut = () => {
             Quantity,
             orderTime
         };
+        
         console.log('here the main details', orderDetails);
-        fetch("http://localhost:5055/UserDetailsItem",{
+        fetch("https://sleepy-woodland-19039.herokuapp.com/UserDetailsItem",{
             method:"POST",
             headers:{'Content-Type' : 'application/json'},
             body:JSON.stringify(orderDetails)

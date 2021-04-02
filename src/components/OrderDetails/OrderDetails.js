@@ -13,11 +13,11 @@ const OrderDetails = (props) => {
                     <div className="row">
                        
                             <div className="col-lg-12">
-                            <div className="hereTheUserDetails mt-5 d-inline">
+                            <div className="hereTheUserDetails mt-5 d-inline text-center">
                                 
                                 <ul>
                                     <li>
-                                        <Card style={{ width: '25rem' }}>
+                                        <Card style={{ width: '18rem' }}>
                                             <Card.Header>   <strong>Client Information</strong>     </Card.Header>
                                             <ListGroup variant="flush">
                                                 <ListGroup.Item>Client - {loginUser}</ListGroup.Item>
