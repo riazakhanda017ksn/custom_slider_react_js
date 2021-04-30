@@ -17,3 +17,10 @@ Links [here the It shop](https://your-it-shop.web.app/)
 1. Product list
 1. Private Data
 
+## here the features of the website
+
+1. Here any user can buy the product, after buying it will take him to the login page
+1. His order list will appear on the checkout page after log in, his order will be visible
+1. If a user goes to the order page, he will be able to see his orders
+1. If the admin wants, he can add any product and delete it again if he wants
+1. Language:(html, css, react JS, node, Express JS,mongoDb, firebase)
