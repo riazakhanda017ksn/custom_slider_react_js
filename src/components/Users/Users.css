@@ -1,0 +1,185 @@
+.ui-set-up {
+    background: #121213;
+    padding: 8px 81px;
+}
+
+
+.slick-prev {
+    left: -25px;
+    opacity: 0;
+    display: none !important;
+}
+
+ul.slick-dots {
+    opacity: 0 !important;
+    display: none !important;
+}
+
+
+.endingTimeText p {
+    background: black;
+    color: #fafafa;
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 12px;
+    width: 40%;
+    margin-left: 3vh;
+    margin-top: 38vh;
+    border-radius: 30px;
+}
+
+
+.card-main-container {
+    background: #262626;
+    margin: 10px
+}
+
+.user-little-profile img {
+    width: 30px;
+    background: #ff006a;
+    height: 30px;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.card-main-container h3 {
+    color: #fafafa;
+    margin: 12px;
+    font-weight: 500;
+}
+
+.user-little-profile {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon span {
+    width: 70px;
+    height: 65px;
+    color: #fafafa;
+    padding: 7px;
+    position: relative;
+    top: 4px;
+    font-size: 12px;
+}
+.icon small {
+    display: inline-block;
+    background: #403f3f;
+    padding: 7px;
+    width: 21px;
+    height: 26px;
+    margin-bottom: 16px;
+    border-radius: 40px;
+}
+
+
+.user-expression-about-buy-or-bid-container h5 {
+    margin: 2px;
+}
+
+.user-little-profile {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-little-profile {
+    border-bottom: 1px solid #dddddd30;
+    padding-bottom: 5px;
+}
+
+.user-expression-about-buy-or-bid-container h5 {
+    margin: 2px;
+    color: #fafafa;
+}
+
+.user-expression-about-buy-or-bid-container button {
+    background: none;
+    border: none;
+    color: #CFDD44;
+    font-weight: 600;
+    padding-bottom: 0px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.user-expression-about-buy-or-bid-container button:hover{
+    color: #828b1a;
+}
+.user-expression-about-buy-or-bid-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px !important;
+}
+.username-and-img {
+    display: flex;
+}
+.username-and-img span {
+    color: #fafafa;
+    padding: 6px;
+}
+
+.user-react-container {
+    display: flex;
+    margin: 0 10px;
+}
+
+.user-react-container p {
+    margin: 7px 0;
+    padding-bottom: 5px;
+}
+
+.user-react-container p span {
+    color: #8445F7;
+    font-size: 18px;
+}
+
+.user-react-container p small {
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 1px;
+    position: relative;
+    bottom: 2px;
+}
+
+span.dot {
+    display: inline-block;
+    margin: 0 7px;
+    width: 10px;
+    height: 10px;
+    background: #fafafaa8;
+    border-radius: 50%;
+}
+
+.user-react-container code {
+    display: inline-block;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.card-main-container {
+    border-radius: 23px;
+}
+
+.slick-next {
+    right: 9px !important;
+    background: linear-gradient(45deg, black, #00000087) !important;
+    height: 96% !important;
+    padding: 0 58px !important;
+    opacity: 0.75 !important;
+    border-radius: 0px 23px 23px 0px !important;
+    z-index: 999999 !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 50px !important;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
